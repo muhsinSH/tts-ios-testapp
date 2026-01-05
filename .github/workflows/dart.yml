@@ -26,7 +26,7 @@ jobs:
 
       # 🔴 أهم خطوة — إنشاء ios إن لم يكن موجودًا
       - name: Ensure iOS platform exists
-        run: flutter create .
+        run: flutter create . --org com.imah
 
       - name: Install CocoaPods
         run: |
